@@ -47,7 +47,7 @@ struct ContentView: View {
                       .stroke(lineWidth: 15)
               .fill(Color(red: 97/255, green: 68/255, blue: 0/255))
               
-            // 左睛
+            // 左眼
             Path { (path) in
             path.move(to: CGPoint(x: 110, y: 420))
             path.addQuadCurve(to: CGPoint(x: 192, y: 420), control: CGPoint(x: 160, y: 410))
